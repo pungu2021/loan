@@ -6,13 +6,18 @@ header{
     background-color: black;
     color: white;
     height: 60px;
-    border-bottom: 10px solid orange;
+    border-bottom: 10px solid rgba(16, 199, 16, 0.555);
 }
 .advans{
-    font-size: 25px;
+    font-size: 29px;
     font-weight: bold;
     opacity: 0.8;
     margin-left: 20px;
+    color: white !important;
+    text-shadow: 2px 2px 2px orange;
+}
+.advans::first-letter{
+    color: white;
 }
 .images-loan{
     height: 600px;
@@ -20,7 +25,7 @@ header{
 .heure{
     text-align: right;
     font-size: 25px;
-    margin-top: -30px;
+    margin-top: -40px;
     margin-right: 50px;
     font-weight: bold;
     opacity: 0.8;
@@ -32,11 +37,12 @@ header{
     height: 80px;
     text-align: center;
     font-size: 25px;
-    border-left: 10px solid orange;
+    border-left: 10px solid rgba(16, 199, 16, 0.555);
     border-bottom: 20px solid white;
     border-top: 20px solid white;
-    border-right: 10px solid orange;
-
+    border-right: 10px solid rgba(16, 199, 16, 0.555);
+     text-shadow: 2px 2px 2px orange;
+     font-weight: bold;
 }
 [for*="au"]{
     font-weight: bold;
@@ -49,6 +55,7 @@ header{
 .form-image{
      background-color: rgba(128, 128, 128, 0.1);
      padding: 20px;
+     border-left: 5px solid green;
 }
 .seconnecte{
     height: 30px;
@@ -56,7 +63,7 @@ header{
     color: white;
     text-align: center;
     font-size: 20px;
-    border-left: 10px solid orange;
+    border-left: 10px solid rgba(16, 199, 16, 0.555);
 }
 .btn-adv {
     height: 40px;
@@ -65,6 +72,9 @@ header{
     font-size: 20px;
     font-weight: bold;
     background-color: black;
-    border-left: 10px solid orange;
+    border-left: 10px solid rgba(16, 199, 16, 0.555);
     color: white;
+}
+.color{
+    color: white !important;
 }

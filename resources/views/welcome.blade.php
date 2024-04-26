@@ -12,7 +12,7 @@
     <main>
         <header>
               <span class="advans">ADVANS CONGO</span>
-              <div class="heure">{{date("d-m-Y")}}</div>
+              <div class="heure">Date : {{date("d-m-Y")}}</div>
         </header>
         <div class="container-fluid">
             <div class="row">
@@ -24,7 +24,8 @@
                        ADVANS CONGO LOAN
                     </div>
                     <div class="seconnecte">Je me connecte avec mon compte</div>
-                    <form action="" method="POST" class="form-image">
+                    <form action="/acceuil" method="POST" class="form-image">
+                        @csrf
                         <label for="au">Email advans congo</label>
                         <input type="text" name="gmail" id="" class="form-control">
                         <label for="au">Mot de passe</label>
