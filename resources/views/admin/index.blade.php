@@ -293,7 +293,7 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-faq.html">
           <i class="bi bi-question-circle"></i>
-          <span>Notification</span>
+          <span>Notification <span class="noti">1</span></span>
         </a>
       </li><!-- End F.A.Q Page Nav -->
 
@@ -389,7 +389,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Montant total <span>| de ce mois</span></h5>
+                  <h5 class="card-title">Credit <span>| de cette semaine</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">

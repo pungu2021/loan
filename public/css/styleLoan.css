@@ -78,3 +78,13 @@ header{
 .color{
     color: white !important;
 }
+.noti{
+    background-color: rgb(211, 124, 124);
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 19px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+}
